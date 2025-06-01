@@ -1,0 +1,152 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Karla', sans-serif;
+   letter-spacing: normal;
+   line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+li {
+   letter-spacing: normal;
+   line-height: 1.5;
+}
+
+.container {
+   max-width: 1000px;
+   margin: 20px auto;
+   padding: 32px 24px;
+   background: #fff;
+   border-radius: 16px;
+   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+header {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius: 12px;
+   padding: 40px 20px;
+   background-image: url('/assets/img/photo_2024-06-22_11-55-24\ \(2\).jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 180px;
+}
+
+.text-BG {
+   padding: 10px;
+}
+
+header h1 {
+   color: #d7dbdb;
+   font-size: 1.8rem;
+   font-weight: 700;
+   margin-bottom: 1rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+}
+
+header p {
+   color: #d7dbdb;
+   font-weight: 500;
+   font-size: 1rem;
+   margin-top: 1rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+}
+
+main {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   padding: 40px 20px;
+   background-color: #d7dbdb;
+   border-radius: 12px;
+   margin: 20px;
+   box-shadow: silver 0px 0px 10px;
+}
+
+section {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.MyClass {
+   display: block;
+   max-width: 100%;
+   height: auto;
+   border-radius: 12px;
+   margin-bottom: 15px;
+}
+
+.text-MyClass {
+   padding-top: 5px;
+}
+
+.H-MyClass {
+   margin-bottom: 15px;
+   margin-right: 10px;
+   font-size: 1.2rem;
+   font-weight: bold;
+   text-align: left;
+}
+
+.text-MyClass p {
+   font-size: 0.8rem;
+   font-weight: 400;
+   padding: 3px 0;
+}
+
+.PhotoFriends {
+   display: block;
+   max-width: 100%;
+   width: 280px;
+   height: 280px;
+   object-fit: cover;
+   border-radius: 12px;
+   margin-bottom: 15px;
+}
+
+.Friends {
+   display: flex;
+   align-items: flex-start;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   gap: 10px;
+}
+
+.text-Friends {
+   margin-top: 20px;
+   margin-right: 15px;
+   padding-top: 5px;
+}
+
+.H-Friends {
+   margin-bottom: 15px;
+   margin-right: 10px;
+   font-size: 1.2rem;
+   font-weight: bold;
+   text-align: left;
+}
+
+.text-Friends p {
+   font-size: 0.8rem;
+   font-weight: 400;
+   padding: 3px 0;
+}
