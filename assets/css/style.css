@@ -174,4 +174,10 @@ section {
    font-weight: 600;
 }
 
-/*Це ще не кінець*/
+.site-footer {
+   text-align: center;
+   padding: 18px 0 10px 0;
+   font-size: 1rem;
+   color: #555;
+   background: transparent;
+}
