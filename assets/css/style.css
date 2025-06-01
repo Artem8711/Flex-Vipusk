@@ -6,6 +6,10 @@ body {
    font-family: 'Karla', sans-serif;
    letter-spacing: normal;
    line-height: 1.5;
+   background-image: url('https://cdn.pixabay.com/photo/2022/02/15/05/31/school-background-7014275_960_720.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
 }
 
 h1,
@@ -48,6 +52,8 @@ header {
 
 .text-BG {
    padding: 10px;
+   background-color: rgba(198, 192, 192, 0.652);
+   border-radius: 10px;
 }
 
 header h1 {
@@ -85,6 +91,10 @@ section {
    gap: 20px;
    align-items: center;
    justify-content: space-between;
+   background: #f8fafb;
+   border-radius: 14px;
+   padding: 24px 18px;
+   margin-bottom: 28px;
 }
 
 .MyClass {
@@ -92,15 +102,16 @@ section {
    max-width: 100%;
    height: auto;
    border-radius: 12px;
-   margin-bottom: 15px;
+   margin-top: 10px;
 }
 
 .text-MyClass {
    padding-top: 5px;
+   margin-bottom: 30px;
 }
 
 .H-MyClass {
-   margin-bottom: 15px;
+   margin-bottom: 8px;
    margin-right: 10px;
    font-size: 1.2rem;
    font-weight: bold;
@@ -110,7 +121,7 @@ section {
 .text-MyClass p {
    font-size: 0.8rem;
    font-weight: 400;
-   padding: 3px 0;
+   padding: 1px 0;
 }
 
 .PhotoFriends {
@@ -137,7 +148,7 @@ section {
 }
 
 .H-Friends {
-   margin-bottom: 15px;
+   margin-bottom: 8px;
    margin-right: 10px;
    font-size: 1.2rem;
    font-weight: bold;
@@ -150,4 +161,17 @@ section {
    padding: 3px 0;
 }
 
-/*Ще не все готово */
+.video {
+   text-align: center;
+   margin: 13px;
+}
+
+.video h1 {
+   margin-bottom: 12px;
+   margin-left: 10px;
+   margin-right: 10px;
+   font-size: 1.2rem;
+   font-weight: 600;
+}
+
+/*Це ще не кінець*/
